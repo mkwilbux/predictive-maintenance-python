@@ -114,7 +114,6 @@ Fit the result data frame into Kmeans cluster, grouping into 8 cluster (number i
 For testing, take the input path from the user to check which bearing is suspected to fail and which is in normal condition. Calculate the numbers of label 5, 6 ,7 for the last 100 predictions. If it is greater than 25, then it is suspected to fail. Otherwise, it is in normal condition 
 
  ![Figure4](./Images/Kmeans/testset2_figure.jpg)
-tgure.jpg)
 *Figure 4. Predicted last 100 labels for testset2, for all four bearings using the Kmeans clustering*
 
  ![Figure 5](./Images/Kmeans/testset2_result.jpg)
@@ -122,7 +121,7 @@ tgure.jpg)
  
 ### For GMM:
 
-Fit the result data frame into gmm model, grouping into 3 components (components depicts no of clusters). 
+Fit the result data frame into gmm model, grouping into 3 components (components depicts number of clusters). 
 Save the trained model as GMM using numpy.
 
 For testing, take the input path from the user to check which bearing is suspected to fail and which is in normal condition. Calculate the numbers for label 2 for the last 100 predictions. If it is greater than 50, then it is suspected to fail. Otherwise it is in normal condition.
